@@ -10,7 +10,7 @@ pw = "PW"
 # <---------> - = - = - <--------->
 @client.event
 async def on_ready():
-    print("Self Entrace ON")
+    print("Self Join ON")
     print("Servers: {}".format(str(len(client.servers))))
     print("OK!")
 
